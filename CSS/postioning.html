@@ -7,31 +7,67 @@
 </head>
 <style>
     .container{
-        background-color: rgb(215, 252, 8);
-        height: 100vx;
-        width: 1000px;
+        background-color:white;
+        width: 600px;
+        height: 635px;
+        margin-inline: auto;
+        position: relative;
     }
     .box{
-        width: 100px;
+            height: 100px;
+            width: 100px;            
+        }
+    .red-box{
+        background-color: blue;
         height: 100px;
-        color: brown;
+            width: 500px;
+        position: absolute;
+        top:0;
+        left: 50px;
+        background-color: red;
     }
     .green-box{
-        width: 100px;
+        background-color: green;
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+    .green-box1{
+        background-color: green;
+        position: absolute;
+        top: 150px;
+        left: 400px;
+    }
+    .yellow-box{
+        background-color: yellow;
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+    .yellow-box1{
+        background-color: yellow;
+        position: absolute;
+        top: 400px;
+        left: 400px;
+        
+    }
+    .blue-box{
+        background-color: blue;
         height: 100px;
-        color: brown;
-
+            width: 500px;
+        position: absolute;
+        bottom:0;
+        left: 50px;
     }
         </style>
 <body>
-    <h1>Postioning</h1>
-    <section class="continer">
-        <div class="green-box"></div>
-        <div class="green-box"></div>
-        <div class="yellow-box"></div>
-        <div class="yellow-box"></div>
-        <div class=" red-box"></div>
-        <div class=" blue-box"></div>
+    <section class="container">
+        <div class="box green-box"></div>
+        <div class="box green-box1"></div>
+        <div class="box yellow-box"></div>
+        <div class="box yellow-box1"></div>
+        <div class="box red-box"></div>
+        <div class="box blue-box"></div>
     </section>
 </body>
 </html>
